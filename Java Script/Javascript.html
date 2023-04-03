@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <script>
+
+        // console.log("Hello World")
+
+        // document.write("Kiranmai")
+
+        // alert("Submit")
+
+        // window.alert("alert2")
+
+        // var x=10 ;
+
+        // console.log(x) ;
+
+        // alert(x) ;
+
+        // document.write(x) ;
+
+        // var y="Java script";
+
+        // document.write(y);
+
+        // var x=true;
+
+        // var y=false;
+
+        // document.write(x+"<br>");
+
+        // document.write(y);
+
+        // var z=null;
+
+        // alert(z);
+
+        // var letter=["a","b","c","d"]
+
+        //      console.log((1))
+
+        // //      document.write(letter[3])
+
+        //  var a=2;
+
+        //  alert(a++)//2
+
+        //  alert(a)//3
+
+        //  alert(++a)//4
+
+        //  alert(a--)//4
+
+        //  alert(a)//3
+
+        //  alert(--a)//2
+
+        // ternary operator
+
+        // var num =2;
+
+   
+
+        // a=(num >=0)?"positive":"negetive"
+
+        // console.log(a)
+
+        // function cal(a,b){
+
+        //     var add=(a+b);
+
+        //     var sub=(a-b);
+
+        //     var mult=(a*b);
+
+        //     var div=(a/b);
+
+        //     var arr=[add,sub,mult,div]
+
+        //     return arr
+
+ 
+
+        // }
+
+        // var x=cal(4,2)
+
+   
+
+        // document.write(x)
+//         var a=10
+// if(a==0){
+//     console.log('a is equal to 0')
+// }
+// else if (a>0){
+//     console.log("a is greater then 0")
+
+    
+// }
+// else {
+//     console.log("a is less then 0")
+
+// }
+// 
+
+
+// var d= new Date();
+// // document.write(d)
+// switch(d.getDay()){
+   
+//     case 0:
+//         alert("sunday")
+//         break;
+//     case 1:
+//         alert("monday")
+//         break;
+//     case 2:
+//         alert("saturday") 
+//         break;
+//     default:
+//         alert("error")
+          
+// }
+  
+// loops
+// Types--1.for, 2.do..while, 3.while, 4.for...in, 5.for...of
+
+
+// for
+
+// for(var i=0;i<=10;i+=2){
+//      document.write (i)
+//     }
+
+
+
+    // while
+//     var i = 5;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
+// var i = 1;
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
+   
+
+
+
+
+
+// var i = 20;
+         
+//          for(var i=0;i<=5000;i+=5){
+//      document.write (i)
+//          }
+
+//  adxition of any 3 digit number
+// function sumofnum(input){
+// var sum=0;
+// while (input != 0){
+// sum = sum += (input%10);
+// input = input/10;
+
+// }
+// return sum;
+// }
+// console.log(sumofnum(340));
+
+ 
+
+//factorial of number
+// var num = parseInt(prompt("enter number"));
+// if (num<0){
+//     console.log("NA")
+// }
+// else if (num==0){
+//     console.log("1")
+// }else{
+//     var x=1;
+//     for(i=1;i<=num;i++){
+//         x*=i;
+//     }
+// console.log(x)
+// }
+// another way of factorial num
+
+// function factorial(a){
+//     if(a == 0)
+//     {
+//         return 1
+//     }
+//     else {
+//         return a*factorial(a-1)
+//     }
+//     console.log(factorial=(5))
+// }
+
+// Random Number
+
+// for (var i = 0; i <= 20; i++) {
+//     var x = 0;
+//     var a = Math.floor(Math.random() * 20 + 1);
+//     for (var j = 0; j < a; j++) {
+//         x++;
+//     }
+//     console.log(x);
+// }
+
+// //  another way of random number
+// function randomNum() {
+//   for (var i = 0; i <= 10; i++) {
+//     var random = Math.random() * i;
+//   }
+//   return Math.floor(random);
+// }
+// console.log(randomNum());
+
+//  /arrays
+// var num1=[1,2,3,4,5]
+// var name=["kiran","sahil","sakul","mohit"]
+// var ser=["aaa","bbb",20]
+// var num2=new Array(9,8,7,6,5)
+// document.write(s1)
+// var len=s1.length;
+// var num1=[12,13,14,15];
+// var s1=["srinvas","shakul","karnika","rahul"]
+// var s2=["apple","mango",100]
+// var num2=new Array(15,20,25,30)
+// document.write(s1)
+// var len = s1.length;
+// s1.push("Arrays tutorial")
+// s1.unshift("Hero Vired")
+// console.log(s1)
+// // s1.pop();
+// // s1.shift();
+// // console.log(s1)
+// // add element
+// s1.splice(2,0,"a","b");
+// // add n remove
+// s1.splice(2,3,"red","pink");
+// console.log(s1);
+// slice 
+// var x = ["a","b","c","d","e"]
+//         console.log(x.slice(1,4))
+//         console.log(x.slice(-2))
+//         console.log(x.slice(2))
+//         console.log(x.slice(3,-1))
+
+// Searching for specific elelment
+// var a=[1,2,3,4,5,6,,11,16,7,2,8,9];
+// // console.log(a.indexOf(3))
+// // check the last index of duplicate element
+// console.log(a.lastIndexOf(2))
+// // to check if any elements existsor not
+// console.log(a.includes(5))
+// // to check if any element satifies any condition
+// var s=a.find(function(i){
+//     return i>5;
+// }
+// )
+// console.log(s)
+
+// sorting array
+// var a=[1,2,3,4,5,6,,11,16,7,2,8,9];
+// console.log(a.sort())
+// console.log(a.sort(function(x,y){
+//     return x-y;
+// }))
+// //  finding min and max
+// // var a=[1,2,3,4,5,6,,11,16,7,2,8,9];
+// // console.log(a.sort())
+// // console.log(a.sort(function(x,y){
+// //     return x-y;
+// // }))
+// // // max
+// // function Max(arr){
+// //     return Math.max.apply(null,arr)
+// // }
+// // console.log(Max(a));
+// // // min
+// // function Max(arr){
+// //     return Math.max.apply(null,arr)
+// // }
+// // console.log(Max(a));  
+
+
+// //  Object
+// // function car(company,name,seat){
+// //     this.company=company;
+// //     this.name=name;
+// //     this.seat=seat;
+// // }
+// // var a= new car("hyundai","verna","7")
+// //  console.log(a) 
+// //  console.log(a.name) 
+// // //   through variable
+// //  var b={
+// //     name:"hyndai",
+// //     company:"toyota",
+// //     seat:"7"
+
+// //  }     
+// // console.log(b.name)
+ 
+// function car(company,name,seating){
+//     this.c= company;
+//     this.n=name;
+//     this.s=seating;
+// }
+//  var c1= new car('hyundai','verna','5')
+//  console.log(c1.n)
+//  var c2={
+//    name:'fortuner',
+//     company:'toyota',
+//     seating:'5',
+//     show: function (){
+//         console.log("this is mt new car"+this.name+"from the company"+this.company)
+//     }
+
+//  }
+//  console.log(c2['name of the car'])
+//  console.log(c2["company"])
+// //  for(var i in c2){
+// //     console.log(c2[i])
+// //  }
+//  c2.company="bmw"
+//  console.log(c2.company)
+//  delete c2.seating
+//  c2.show()
+
+       
+
+     
+
+//  function car(company,name,seating){
+//     this.c= company;
+//     this.n=name;
+//     this.s=seating;
+// }
+//  var c1= new car('hyundai','verna','5')
+//  console.log(c1.n)
+//  var c2={
+//    name:'fortuner',
+//     company:'toyota',
+//     seating:'5',
+//     show: function (){
+//         console.log("this is mt new car"+this.name+"from the company"+this.company)
+//     }
+
+//  }
+//  console.log(c2['name of the car'])
+//  console.log(c2["company"])
+// //  for(var i in c2){
+// //     console.log(c2[i])
+// //  }
+//  c2.company="bmw"
+//  console.log(c2.company)
+//  delete c2.seating
+//  c2.show()
+
+
+
+
+//  var student={
+//     name:'shakul',
+//     age:35,
+//     email:"xyz@gmail.com",
+//     result:function(){
+//         console.log("the result:- "+this.name+"of age"+this.age+"has secured first division")
+//     }
+
+// }
+// console.log(student.name)
+// console.log(student.email)
+// student.result()
+// student.name="shakul malik"
+// console.log(student.name)
+// delete student.email
+// console.log(student.email)
+// student.results="first"
+// console.log(student)
+
+
+// // for printing array in reverse
+// var arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// var revArrNum = [];
+
+   
+
+// for (let i = arrNum.length - 1; i >= 0; i--) {
+
+// revArrNum.push(arrNum[i]);
+
+// }
+
+// console.log(revArrNum); 
+
+//  to make an array empty
+var arrNum = [1, 2, 3, 4, 5];
+arrNum.length = 0;
+console.log(arrNum)
+
+
+//  combine 2 arrays in 1
+// let arrFruits = ["Mango", "Banana", "Apples"];
+
+// let arrVegetables = ["Spinach", "Tomato"];
+
+// let arrHealthyFood = [];
+
+// arrHealthyFood = [arrFruits, arrVegetables];
+// // arrHealthyFood = arrFruits + arrVegetables;
+// console.log(arrHealthyFood)
+
+
+//  full name of employee
+// var employee = {
+
+// id: 101,
+
+// firstName: "Mark",
+
+// lastName: "Henry",
+
+// fullName: function () {
+
+// return this.firstName + " " + this.lastName;
+
+// }
+
+// };
+// console.log(employee.fullName());
+
+
+//  summ of all subjects
+function Student(id, name, eng, sci, math) {
+
+this.id = id;
+
+this.name = name;
+
+this.eng = eng;
+
+this.sci = sci;
+
+this.math = math;
+
+
+this.result = function () {
+
+    return this.eng + this.sci + this.math;
+
+}
+
+}
+var student1 = new Student(101, "Amit", 25, 23, 24);
+
+console.log(student1.result());
+    </script>
+
+ 
+
+</body>
+
+</html>

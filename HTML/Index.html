@@ -1,0 +1,54 @@
+<!-- to check the code and validate use validator.w3.org for HTML
+and for CSS jigsaw.w3.org -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- to define character set -->
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- view port is visible area of website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <style>
+      img {
+        width: 300px;
+        /* if border radius is set half pf width we get round image */
+        border-radius: 150px;
+        /* float is to align the image left */
+        float: left;
+        margin-right: 10px;
+      }
+      p {
+        font-weight: bold;
+      }
+      /* to apply properties differently to same tag we use class */
+      .username {
+        font-weight: lighter;
+      }
+      em {
+        color: red;
+      }
+      .image {
+        float: right;
+        object-fit: fill;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="pexels-photo.jpg" />
+    <p class="username">This is my first <strong>html</strong> page</p>
+    <p>This is my st second <em>html </em> page</p>
+    <!-- entities used for using symbols in webpage like > & < -->
+    <p>Lorem ipsum dolor sit amet. u can insert image in href</p>
+    <!--  in any folder if you want to goo 1 level up use ../ -->
+    <!--  we can use download attribute to anchor tag to download the file or image defined in anchor tag -->
+    <!--  we can ad ID of element using # followed by ID to jump to any particulat section of page -->
+    <!--  -->
+
+    <img class="image" src="pexels-photo.jpg" alt="Nature" />
+  </body>
+</html>

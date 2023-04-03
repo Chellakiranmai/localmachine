@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+body,html{
+    height: 100%;
+
+}
+img{
+    height: 75%;
+}
+/* search for clip path generator in google and select the pattern of image and copy code and paste here */
+.clip-circle{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+.clip-triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}

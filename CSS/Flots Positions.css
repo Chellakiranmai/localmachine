@@ -1,0 +1,57 @@
+
+
+/*  Float*/
+/* body{
+    margin: auto;
+    max-width: 900px;
+    width: 90%;
+}
+
+#box{
+    float: left;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: pink;
+    padding: 1em;
+}
+.special{
+    background-color: lightskyblue;
+    padding: 15px;
+    color: white;
+    text-align: justify;
+}
+.clear{
+    clear: left;
+} */
+
+
+
+
+/* Position */
+
+.box-set,.box{
+    border-radius: 10px;
+}
+.box-set{
+    background: blueviolet;
+}
+.box{
+    /* position: relative; */
+    /* top box comes down by 20 px */
+    /* top: 20px;    */
+
+    /* position: absolute; */
+    /* comes one on top of other */
+
+    position: fixed;
+    /* box will not move from its position */
+    position: sticky;
+
+    background: whitesmoke;
+    height: 50px;
+    width: 50px;
+    text-align: justify;
+    margin: 10px;
+}

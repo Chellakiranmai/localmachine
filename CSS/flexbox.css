@@ -1,0 +1,39 @@
+*{
+    background: whitesmoke;
+}
+.flexcontainer{
+    /* display: block; */
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.flexitem{
+    width: 75px;
+    height: 75px;
+    background-color: pink;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 2em;
+    color: blue;
+    font-weight: bolder;
+
+}
+
+#flexitem3{
+    background-color: aqua;
+    order: 5;
+}
+#flexitem1{
+    flex-basis: 200px;
+}
+#flexitem2{
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+#flexitem4{
+    flex-shrink: 3;
+}
+#flexoitem5{
+align-self: flex-end;
+}

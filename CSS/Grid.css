@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px;
+}
+ .items{
+    background-color: aqua;
+    border: 3px blue solid;
+    border-radius: 3px;
+ }
+ 

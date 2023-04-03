@@ -1,0 +1,32 @@
+
+
+
+.fav{
+    color: red;
+    font-weight: bold;
+}
+
+ul#cool-drinks li{
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+}
+
+/* inheritance */
+
+/* Inherit :  property vau comes from parent element . Eg. if p is given under div p will takes div properties */
+/* Initial : takes its own property value */
+/*  Unset :  values gets reset */
+ .class-1 a{
+    color: inherit;
+ }
+ .class-2 a{
+    color: initial;
+
+ }
+ /* got reset and took class-1 property i.e. coodrinks prop */
+  .class-1{
+   
+    color: unset;
+    
+  }

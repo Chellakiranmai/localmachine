@@ -1,0 +1,50 @@
+h1{
+    color: green;
+}
+
+li{
+    list-style-type: square;
+}
+
+.special{
+    color: pink;
+    font: bold;
+}
+
+/* descendent selector */
+li p{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* adjacent combitor */
+h1+ol{
+    font-size: 300%;
+}
+
+/* pseudo class slector */
+a:hover{
+    color: brown;
+    text-decoration: solid;
+
+}
+/* class selector */
+.letter{
+    color:yellowgreen;
+    background-color: pink;
+    padding:5%;
+
+}
+/* id selectors */
+ #alpha{
+    color: aqua;
+ }
+
+/* attribute selector */
+ol[type="i"]{
+    font-size: xx-large;
+}
+
+/* universal selector or everything selector*/
+*{
+    background-color: skyblue;
+}
